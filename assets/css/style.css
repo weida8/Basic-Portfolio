@@ -56,6 +56,24 @@ h2 {
   color: #4aaaa5;
   margin-top: 0;
 }
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  background-color: #777777;
+  border-top-width: 8px;
+  border-top-color: #4aaaa5;
+  border-style: solid;
+  margin: 0 0 0 0;
+}
+
+footer p {
+  padding: 20px 0 20px 0;
+}
 .vertical-line {
   border-right:1px solid #777777;
 }
@@ -80,7 +98,9 @@ h2 {
   background:#717171;
   border-bottom:1px solid #313030;
 }
-
+#connect-title {
+  text-align: center;
+}
 #profile {
   height: 300px;
   width:auto;
